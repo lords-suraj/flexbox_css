@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<style>
+    *{
+        background-color: gainsboro;
+    }
+    
+    .txt h1{
+color: blue;
+text-align: center;
+    }
+    .txt p{
+        color: gray;
+        text-align: center;
+        font-size: 20px;
+    }
+    .images img{
+        width: 400px;
+        height: 300px;
+        border: 2px solid black;
+        margin: 10px;
+    }
+    .images{
+        height: 600px;
+        width: 430px;
+        display: flex;
+        flex-wrap: wrap;
+   
+        border: 2px solid black;
+        margin: 10px;
+        text-align: left;
+        border-radius: 15px;
+        background-color: white;
+        justify-content: left;
+        
+
+    }
+    .kim{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;   
+     }
+     .images .name{
+        background-color: white;
+        font-size: 30px;
+        color: blue;
+     }
+     .images .para{
+        background-color: white;
+        font-size: 20px;
+        margin-top: -20px;
+     }
+     .images .fees{
+        background-color: white;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-top: -20px;
+     }
+</style>
+<body>
+    <div class="container">
+        <div class="txt">
+            <h1>Community Programs</h1>
+            <p>open to all pro live classes on youtube for free</p>
+        </div>
+        <div class="kim">
+        <div class="images"><img src="wal1.jpg" alt="imgs">
+            <p class="name">Masterclass Understanding the API in Web Development with RoadMap</p>
+            <p class="para">Hitesh Choudary</p>
+            <p class="fees">Free</p>
+        </div>
+        <div class="images"><img src="wal2.jpg" alt="imgs">
+            <p class="name">MAstering Cracking the coding interview linkedlist</p>
+            <p class="para">Vishwa Mohan</p>
+            <p class="fees">Free</p>
+        </div>
+        <div class="images"><img src="wal3.jpg" alt="imgs">
+            <p class="name">Masterclass Important of DSA in Mordern Programing</p>
+            <p class="para">Priya Bhatia </p>
+            <p class="fees">Free</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
